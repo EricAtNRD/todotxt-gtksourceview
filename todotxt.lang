@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
- Add SUPER basic support for todo.txt files.
+ GtkSourceView syntax highlighting for the todo.txt format.
  See also:  http://todotxt.org/
 
  Author: Eric Weik <ericw@newriversdigital.com>
