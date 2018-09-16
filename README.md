@@ -16,7 +16,7 @@ Copy `todotxt.lang` into one of these directories:
 
 Replace 'X.X' with your version of GtkSourceView.
 
-_gedit_ and other tools using GtkSourceView should then show Elixir syntax highlighting.
+_gedit_ and other tools using GtkSourceView should then show todo.txt syntax highlighting.
 
 ### License
 
