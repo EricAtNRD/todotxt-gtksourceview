@@ -2,9 +2,7 @@
 
 ![gedit](https://raw.githubusercontent.com/Circumjacence/todotxt-gtksourceview/master/screenshot.png)
 
-GtkSourceView syntax highlighting for the [todo.txt format](http://todotxt.org/).
-
-This is my first foray into GtkSourceView definitions, so it likely needs more work.
+Language definition for the [GtkSourceView v3 or v4](https://https://wiki.gnome.org/Projects/GtkSourceView/) GTK+ multiline text editing library.  This brings context-sensitive highlighting to [GEdit](https://apps.gnome.org/app/org.gnome.TextEditor/), [GMate](https://github.com/gmate/gmate), etc. for the [todo.txt format](http://todotxt.org/).
 
 
 ## Usage
