@@ -1,24 +1,29 @@
-todotxt-gtksourceview
-====================
+# todotxt-gtksourceview
+
 ![gedit](https://raw.githubusercontent.com/Circumjacence/todotxt-gtksourceview/master/screenshot.png)
 
 GtkSourceView syntax highlighting for the [todo.txt format](http://todotxt.org/).
 
-This is my first foray into GtkSourceView definitions, so it likely needs more work...
+This is my first foray into GtkSourceView definitions, so it likely needs more work.
 
-## Usage: 
+
+## Usage
 
 Copy `todotxt.lang` into one of these directories: 
 
- * `~/.local/share/gtksourceview-X.X/language-specs/`
- * `/usr/local/share/gtksourceview-X.X/language-specs/`
- * `/usr/share/gtksourceview-X.X/language-specs/`
-
-Replace 'X.X' with your version of GtkSourceView.
+- GtkSourceView 3:
+  - `~/.local/share/gtksourceview-3.0/language-specs/`
+  - `/usr/share/gtksourceview-3.0/language-specs/`
+  - `/usr/local/share/gtksourceview-3.0/language-specs/`
+- GtkSourceView 4:
+  - `~/.local/share/gtksourceview-4/language-specs/`
+  - `/usr/share/gtksourceview-4/language-specs/`
+  - `/usr/local/share/gtksourceview-4/language-specs/`
 
 _gedit_ and other tools using GtkSourceView should then show todo.txt syntax highlighting.
 
-### License
+
+## License
 
 This language definition file is licensed under the GNU Lesser General Public License 3.0.
 
