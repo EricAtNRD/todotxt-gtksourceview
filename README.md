@@ -2,7 +2,7 @@
 
 ![gedit](https://raw.githubusercontent.com/Circumjacence/todotxt-gtksourceview/master/screenshot.png)
 
-Language definition for the [GtkSourceView v3 or v4](https://https://wiki.gnome.org/Projects/GtkSourceView/) GTK+ multiline text editing library.  This brings context-sensitive highlighting to [GEdit](https://apps.gnome.org/app/org.gnome.TextEditor/), [GMate](https://github.com/gmate/gmate), etc. for the [todo.txt format](http://todotxt.org/).
+Language definition for the [GtkSourceView v3/v4/v5](https://https://wiki.gnome.org/Projects/GtkSourceView/) GTK+ multiline text editing library.  This brings context-sensitive highlighting to [GEdit](https://apps.gnome.org/app/org.gnome.TextEditor/), [GMate](https://github.com/gmate/gmate), etc. for the [todo.txt format](http://todotxt.org/).
 
 
 ## Usage
@@ -12,11 +12,12 @@ Copy `todotxt.lang` into one of these directories:
 - GtkSourceView 3:
   - `~/.local/share/gtksourceview-3.0/language-specs/`
   - `/usr/share/gtksourceview-3.0/language-specs/`
-  - `/usr/local/share/gtksourceview-3.0/language-specs/`
 - GtkSourceView 4:
   - `~/.local/share/gtksourceview-4/language-specs/`
   - `/usr/share/gtksourceview-4/language-specs/`
-  - `/usr/local/share/gtksourceview-4/language-specs/`
+- GtkSourceView 5:
+  - `~/.local/share/gtksourceview-5/language-specs/`
+  - `/usr/share/gtksourceview-5/language-specs/`
 
 _gedit_ and other tools using GtkSourceView should then show todo.txt syntax highlighting.
 
